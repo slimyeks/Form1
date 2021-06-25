@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital,wght@0,400;1,300&display=swap");
+* {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body {
+  background: #0f52ba;
+  font-family: "poppins";
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 100%;
+  padding: 20px;
+  background-color: #0f52ba;
+  color: snow;
+  font-size: 20px;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #696969;
+  color: black;
+  transition: 0.1s;
+  border: teal;
+  top: 0.1em;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 25px;
+  line-height: 1rem;
+  color: #f0ffff;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 2;
+  color: #f0ffff;
+}
+
+.main-form {
+  max-width: 620px;
+  margin: auto;
+  border: 1px solid #191970;
+  border-radius: 15px;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 10px;
+}
+
+.form-group .label {
+  font-size: 18px;
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  width: 100%;
+  outline: none;
+}
